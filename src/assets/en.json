@@ -1,0 +1,62 @@
+{
+    "title": "Tesla-clone | Electric Cars, Solar & Clean Energy",
+    "header": {
+        "menu": {
+            "option0": "Model S",
+            "option1": "Model 3",
+            "option2": "Model X",
+            "option3": "Model Y",
+            "option4": "Solar Roof",
+            "option5": "Solar Panels"
+        },
+        "rightmenu": {
+            "option0": "Shop",
+            "option1": "Accout",
+            "option2": "Menu"
+        },
+        "nav": {
+            "option0": "Existing Inventory",
+            "option1": "Used Inventory",
+            "option2": "Trade-In",
+            "option3": "Test Drive",
+            "option4": "Roadster"
+        }
+    },
+    "main": {
+        "section0": {
+            "title": "Model 3",
+            "bgImg": "/images/model3.jfif",
+            "description": "Order Online for Touchless Delivery"
+        },
+        "section1": {
+            "title": "Model Y",
+            "bgImg": "/images/modely.jfif",
+            "description": "Order Online for Touchless Delivery"
+        },
+        "section2": {
+            "title": "Model S",
+            "bgImg": "/images/models.jfif",
+            "description": "Order Online for Touchless Delivery"
+        },
+        "section3": {
+            "title": "Model X",
+            "bgImg": "/images/modelx.jfif",
+            "description": "Order Online for Touchless Delivery"
+        },
+        "section4": {
+            "title": "Solar Panels",
+            "bgImg": "/images/solarpanels.jfif",
+            "description": "Lowest Cost Solar Panels in America"
+        },
+        "section5": {
+            "title": "Solar Roof",
+            "bgImg": "/images/solarroof.webp",
+            "description": "Produce Clean Energy From Your Roof"
+        },
+        "section6": {
+            "title": "Accessories",
+            "bgImg": "/images/accessories.jfif",
+            "description": ""
+        }
+    }
+}

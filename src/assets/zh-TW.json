@@ -1,0 +1,57 @@
+{
+    "title": "Tesla-clone | 電動車、太陽能與潔淨能源",
+    "header": {
+        "menu": {
+            "option0": "Model S",
+            "option1": "Model 3",
+            "option2": "Model X",
+            "option3": "Model Y",
+            "option4": "Cyberturk",
+            "option5": "Powerwall"
+        },
+        "rightmenu": {
+            "option0": "線上商店",
+            "option1": "帳戶",
+            "option2": "選單"
+        },
+        "nav": {
+            "option0": "現貨車",
+            "option1": "中古 Tesla 現貨車",
+            "option2": "車輛換購",
+            "option3": "預約試駕",
+            "option4": "Roadster"
+        }
+    },
+    "main": {
+        "section0": {
+            "title": "Model 3",
+            "bgImg": "/images/model3.jfif",
+            "description": "線上享受非接觸式購買"
+        },
+        "section1": {
+            "title": "Model S",
+            "bgImg": "/images/models.jfif",
+            "description": "線上享受非接觸式購買"
+        },
+        "section2": {
+            "title": "Model X",
+            "bgImg": "/images/modelx.jfif",
+            "description": "線上享受非接觸式購買"
+        },
+        "section3": {
+            "title": "Model Y",
+            "bgImg": "/images/modely.jfif",
+            "description": "線上享受非接觸式購買"
+        },
+        "section4": {
+            "title": "Solar Roof 和 Powerwall 產品",
+            "bgImg": "/images/solarpanels.jfif",
+            "description": "全方位能源供應"
+        },
+        "section5": {
+            "title": "精品配件",
+            "bgImg": "/images/accessories.jfif",
+            "description": ""
+        }
+    }
+}

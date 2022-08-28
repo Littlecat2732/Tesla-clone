@@ -1,0 +1,137 @@
+.Header_Container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    z-index: 1;
+}
+
+.Header_Menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.Header_Menu div {
+    border-radius: 10px;
+    background-color: transparent;
+    padding: 4px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.Header_Menu div:hover {
+    background-color: rgba(75, 75, 75, 0.1);
+}
+
+.Header_Menu a {
+    color: #171a20;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0 8px;
+    flex-wrap: nowrap;
+}
+
+.Header_RightMenu {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.Header_RightMenu div {
+    border-radius: 10px;
+    background-color: transparent;
+    padding: 4px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.Header_RightMenu div:hover {
+    background-color: rgba(75, 75, 75, 0.1);
+}
+
+.Header_RightMenu a {
+    color: #171a20;
+    font-size: 14px;
+    padding: 0 8px;
+}
+
+.Header_Nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.3);
+    animation: fadeIn 0.3s;
+}
+
+.Header_Item {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: white;
+    width: 300px;
+    list-style: none;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    transform: "translateX(100%)";
+    transition: transform 0.3s ease-in-out;
+}
+
+.Header_Item div {
+    border-radius: 10px;
+    background-color: transparent;
+    padding: 4px;
+    transition: 0.5s;
+    cursor: pointer;
+    margin: 0px 4px;
+}
+
+.Header_Item div:hover {
+    background-color: rgba(75, 75, 75, 0.1);
+}
+
+.Header_Item a {
+    color: #171a20;
+    font-size: 14px;
+}
+
+.Header_CloseIcon {
+    align-self: end;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+
+@media (max-width: 768px) {
+    .Header_Menu {
+        display: none;
+    }
+
+    .Header_RightMenu div {
+        display: none;
+    }
+
+    .Header_RightMenu div:last-child {
+        display: block;
+        border-radius: 10px;
+        background-color: rgba(75, 75, 75, 0.1);
+        transition: 0.5s;
+    }
+
+    .Header_RightMenu div:last-child:hover {
+        background-color: rgba(75, 75, 75, 0.2);
+    }
+
+}
