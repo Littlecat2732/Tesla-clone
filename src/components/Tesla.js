@@ -18,6 +18,24 @@ function Tesla() {
         link.href = '/images/favicon.ico';
     }, [t]);
 
+    function reveal() {
+        var reveals = document.querySelectorAll(".reveal");
+
+        for (var i = 0; i < reveals.length; i++) {
+            var windowHeight = window.innerHeight;
+            var elementTop = reveals[i].getBoundingClientRect().top;
+            var elementVisible = 150;
+
+            if (elementTop < windowHeight - elementVisible) {
+                reveals[i].classList.add("active");
+            } else {
+                reveals[i].classList.remove("active");
+            }
+        }
+    }
+
+    window.addEventListener("scroll", reveal);
+
     if (!ready) return ('loading translations...');
 
     return (
@@ -29,6 +47,8 @@ function Tesla() {
                     bgImg={t('main.section' + id + '.bgImg')}
                     title={t('main.section' + id + '.title')}
                     description={t('main.section' + id + '.description')}
+                    rightButton={t('main.section' + id + '.rightButton')}
+                    leftButton={t('main.section' + id + '.leftButton')}
                 />)
             )}
         </div>

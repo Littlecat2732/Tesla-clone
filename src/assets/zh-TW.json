@@ -26,32 +26,44 @@
         "section0": {
             "title": "Model 3",
             "bgImg": "/images/model3.jfif",
-            "description": "線上享受非接觸式購買"
+            "description": "線上享受非接觸式購買",
+            "rightButton": "了解更多內容",
+            "leftButton": "客製化訂單"
         },
         "section1": {
             "title": "Model S",
             "bgImg": "/images/models.jfif",
-            "description": "線上享受非接觸式購買"
+            "description": "線上享受非接觸式購買",
+            "rightButton": "了解更多內容",
+            "leftButton": "客製化訂單"
         },
         "section2": {
             "title": "Model X",
             "bgImg": "/images/modelx.jfif",
-            "description": "線上享受非接觸式購買"
+            "description": "線上享受非接觸式購買",
+            "rightButton": "了解更多內容",
+            "leftButton": "客製化訂單"
         },
         "section3": {
             "title": "Model Y",
             "bgImg": "/images/modely.jfif",
-            "description": "線上享受非接觸式購買"
+            "description": "線上享受非接觸式購買",
+            "rightButton": "掌握最新資訊",
+            "leftButton": "了解更多內容"
         },
         "section4": {
             "title": "Solar Roof 和 Powerwall 產品",
             "bgImg": "/images/solarpanels.jfif",
-            "description": "全方位能源供應"
+            "description": "全方位能源供應",
+            "rightButton": "",
+            "leftButton": "了解更多內容"
         },
         "section5": {
             "title": "精品配件",
             "bgImg": "/images/accessories.jfif",
-            "description": ""
+            "description": "",
+            "rightButton": "",
+            "leftButton": "立即訂購"
         }
     }
 }

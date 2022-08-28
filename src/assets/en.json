@@ -26,37 +26,51 @@
         "section0": {
             "title": "Model 3",
             "bgImg": "/images/model3.jfif",
-            "description": "Order Online for Touchless Delivery"
+            "description": "Order Online for Touchless Delivery",
+            "rightButton": "EXISTING INVENTORY",
+            "leftButton": "CUSTOM ORDER"
         },
         "section1": {
             "title": "Model Y",
             "bgImg": "/images/modely.jfif",
-            "description": "Order Online for Touchless Delivery"
+            "description": "Order Online for Touchless Delivery",
+            "rightButton": "EXISTING INVENTORY",
+            "leftButton": "CUSTOM ORDER"
         },
         "section2": {
             "title": "Model S",
             "bgImg": "/images/models.jfif",
-            "description": "Order Online for Touchless Delivery"
+            "description": "Order Online for Touchless Delivery",
+            "rightButton": "EXISTING INVENTORY",
+            "leftButton": "CUSTOM ORDER"
         },
         "section3": {
             "title": "Model X",
             "bgImg": "/images/modelx.jfif",
-            "description": "Order Online for Touchless Delivery"
+            "description": "Order Online for Touchless Delivery",
+            "rightButton": "EXISTING INVENTORY",
+            "leftButton": "CUSTOM ORDER"
         },
         "section4": {
             "title": "Solar Panels",
             "bgImg": "/images/solarpanels.jfif",
-            "description": "Lowest Cost Solar Panels in America"
+            "description": "Lowest Cost Solar Panels in America",
+            "rightButton": "LEARN MORE",
+            "leftButton": "ORDER NOW"
         },
         "section5": {
             "title": "Solar Roof",
             "bgImg": "/images/solarroof.webp",
-            "description": "Produce Clean Energy From Your Roof"
+            "description": "Produce Clean Energy From Your Roof",
+            "rightButton": "LEARN MORE",
+            "leftButton": "ORDER NOW"
         },
         "section6": {
             "title": "Accessories",
             "bgImg": "/images/accessories.jfif",
-            "description": ""
+            "description": "",
+            "rightButton": "",
+            "leftButton": "SHOP NOW"
         }
     }
 }
